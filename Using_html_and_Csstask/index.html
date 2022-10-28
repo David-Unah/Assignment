@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="David Unah">
+  <meta name="description" content="login or create an account in David tech show" <title>David Registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg">
+  <section class="sec1">
+    <h1 class="heading">Create account with Us</h1>
+    <h2>Fill in the spaces below with the appropriate items</h2>
+  </section>
+  <section class="section2">
+    <form action="/login.html">
+      <label>First Name</label>
+      <p><input type="text" name="FirstName" id="FirstName" required></p>
+      <label>Last Name</label>
+      <p><input type="text" name="LastName" id="LastName" required></p>
+      <label>Phone</label>
+      <p><input type="tel" name="Phone" id="Phone" required></p>
+      <label>Email</label>
+      <p><input type="email" name="email" id="email" placeholder="Email" required></p>
+      <div class="column">
+        <div class="in_column">
+          <label>Gender</label>
+          <p><select class="Gender_date">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </p>
+          <label>Date Of Birth</label>
+          <p><input type="date" name="Date" class="Gender_date" required> </p>
+        </div>
+        <div class="in_column" id="select123">
+          <label>Favorite Color</label>
+          <p><input type="color" id="colorselect" required> </p>
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</body>
+
+</html>
